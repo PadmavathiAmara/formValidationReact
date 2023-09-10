@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header{
+    font-size: 3rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+main{
+    width: 25rem;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
+input{
+    width: 25rem;
+    height: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#check{
+    width: 2rem;
+}
+
+#tickBox{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+}
+
+#signUpBtn{
+    width: 4rem;
+}
+
+#signUpDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
